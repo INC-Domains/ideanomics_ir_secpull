@@ -33,7 +33,7 @@ def fetch_sec_data(cik):
 
 # Function to update Google Sheet with all data at once
 def update_google_sheet(data):
-    api_url = "https://script.google.com/macros/s/AKfycbxFYoa1afrynauW72fhn7jkkC5S0xT86zfK03g0XZugJwAma2hu9aMy4fbhtRVlD1tW/exec"  # Replace with your API URL
+    api_url = "https://script.google.com/macros/s/AKfycbwRm_sEFq-Yg8QhaiXttxxI87qIn0C33S85fWnkHKTbE58HKLIIWLHHv8XJYpHrRrPz/exec"  # Replace with your API URL
         # Convert data to JSON format
     json_data = json.dumps(data)
     # Set headers with content type
